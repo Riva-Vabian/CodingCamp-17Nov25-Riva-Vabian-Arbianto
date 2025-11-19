@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .profile-banner {
+            width: 100%;
+            height: 300px;
+            background-color: #a0c4ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            color: white;
+            margin-bottom: 30px;
+            background-image: url('https://via.placeholder.com/1200x300?text=Company+Banner');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .profile-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .profile-section {
+            margin-bottom: 40px;
+        }
+
+        .profile-section h2 {
+            font-size: 2.2em;
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .profile-section p {
+            line-height: 1.8;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .vision-mission-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .vision-mission-item {
+            background-color: #f8f9fa;
+            padding: 25px;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            border-left: 5px solid #007bff;
+        }
+
+        .vision-mission-item h3 {
+            color: #007bff;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        @media (max-width: 768px) {
+            .vision-mission-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo latihan revou.jpeg" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Our Profile</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="index.html#message-us-section">Message Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="profile-banner">
+            <h1>Our Company Profile</h1>
+        </div>
+
+        <div class="profile-content">
+            <section class="profile-section" id="about-company">
+                <h2>About Our Company</h2>
+                <p>
+                    Perusahaan kami adalah penyedia layanan servis laptop dan komputer yang berkomitmen menghadirkan solusi cepat, tepat, dan berkualitas untuk setiap kebutuhan pelanggan. Dengan tim teknisi berpengalaman dan peralatan diagnostik modern, kami mampu menangani berbagai jenis kerusakan mulai dari masalah perangkat keras, perangkat lunak, hingga optimasi kinerja. Kami selalu mengutamakan transparansi, ketelitian, dan kejujuran dalam setiap proses perbaikan.
+                </p>
+                <p>
+                    Seiring berkembangnya kebutuhan teknologi, kami terus meningkatkan kemampuan dan layanan agar dapat memberikan pengalaman terbaik bagi pelanggan. Kami percaya bahwa perangkat yang bekerja optimal akan membantu aktivitas Anda lebih lancar, produktif, dan efisien. Karena itu, misi kami adalah memberikan layanan profesional dengan hasil yang memuaskan, serta menjadikan perusahaan kami pilihan utama untuk solusi perbaikan laptop dan komputer.
+                </p>
+            </section>
+
+            <section class="profile-section" id="vision-mission">
+                <h2>Vision & Mission</h2>
+                <div class="vision-mission-grid">
+                    <div class="vision-mission-item">
+                        <h3>Our Vision</h3>
+                        <p>
+                            Menjadi perusahaan layanan servis laptop dan komputer terbaik dan terpercaya di Indonesia dengan menghadirkan solusi teknologi yang cepat, profesional, dan berkualitas tinggi.
+                        </p>
+                    </div>
+                    <div class="vision-mission-item">
+                        <h3>Our Mission</h3>
+                        <ul>
+                            <li>Memberikan layanan perbaikan yang akurat, transparan, dan berstandar profesional.</li>
+                            <li>Mengembangkan keahlian teknisi melalui pelatihan berkelanjutan dan pembaruan pengetahuan teknologi terbaru.</li>
+                            <li>Mengutamakan kepuasan pelanggan melalui pelayanan yang ramah, responsif, dan tepat waktu.</li>
+                            <li>Membangun hubungan jangka panjang dengan pelanggan melalui kualitas layanan yang konsisten dan dapat diandalkan.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="profile-section" id="team-info">
+                <h2>Our Team</h2>
+                <p>Tim kami terdiri dari teknisi berpengalaman yang ahli dalam mendiagnosis dan memperbaiki berbagai jenis kerusakan laptop dan komputer. Dengan keahlian teknis yang kuat, pelayanan yang ramah, serta komitmen terhadap kualitas, kami bekerja secara profesional untuk memberikan solusi yang cepat, tepat, dan dapat diandalkan kepada setiap pelanggan.</p>
+                </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Riva Vabian Arbianto. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
