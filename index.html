@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo latihan revou.jpeg" alt="Logo"> 
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="profile.html">Our Profile</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#message-us-section">Message Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Hi <span id="userName">User</span>, Welcome To Website</h1>
+            <p>Selamat datang di layanan resmi kami yang menyediakan solusi terbaik untuk perbaikan laptop dan komputer.</p>
+            <div class="banner">
+                <img src="img/banner latihan.jpeg" alt="Website Banner">
+            </div>
+        </section>
+
+    <section class="headquarter">
+    <h2>Our Headquarter</h2>
+    <div class="locations">
+        
+        <div class="location-item">
+            <a href="https://www.google.com/maps/place/Central+Jakarta" target="_blank" class="map-link">
+                <img src="img/jakarta.jpeg" alt="Peta Kantor Pusat Jakarta" class="map-image">
+            </a>
+            <h3>Jakarta</h3>
+            <p>Pusat Operasional Utama</p>
+        </div>
+
+        <div class="location-item">
+            <a href="https://www.google.com/maps/place/Gedung+Sate" target="_blank" class="map-link">
+                <img src="img/bandung.jpeg" alt="Peta Kantor Cabang Bandung" class="map-image">
+            </a>
+            <h3>Bandung</h3>
+            <p>Kantor Cabang Bandung</p>
+        </div>
+
+        <div class="location-item">
+            <a href="https://www.google.com/maps/place/Tunjungan+Plaza" target="_blank" class="map-link">
+                <img src="img/surabaya.jpeg" alt="Peta Kantor Cabang Surabaya" class="map-image">
+            </a>
+            <h3>Surabaya</h3>
+            <p>Kantor Cabang Surabaya</p>
+        </div>
+     </div>
+</section>
+
+        <section class="message-us" id="message-us-section">
+          <h2>Message Us</h2>
+            <div class="form-container">
+               <form id="messageForm">
+               <div class="form-group">
+                  <label for="name">Nama</label>
+                   <input type="text" id="name" name="name" required placeholder="Masukkan Nama Lengkap Anda">
+               </div>
+               <div class="form-group">
+                  <label for="dob">Tanggal Lahir</label>
+                  <input type="date" id="dob" name="dob" required>
+               </div>
+               <div class="form-group gender-group"> <label>Jenis Kelamin</label>
+               <div> <input type="radio" id="male" name="gender" value="Laki-Laki" required>
+                   <label for="male">Laki-Laki</label>
+                   <input type="radio" id="female" name="gender" value="Perempuan">
+                   <label for="female">Perempuan</label>
+               </div>
+               </div>
+               <div class="form-group">
+                   <label for="message">Pesan</label>
+                   <textarea id="message" name="message" rows="4" required placeholder="Tulis pesan Anda di sini..."></textarea>
+               </div>
+                   <button type="submit">Submit</button>
+               </form>
+                <div class="submission-details">
+                    <p>Current time: <span id="currentTime"></span></p>
+                    <div id="formDataDisplay">
+                        </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Riva Vabian Arbianto. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
